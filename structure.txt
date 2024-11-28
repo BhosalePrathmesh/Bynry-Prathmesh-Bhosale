@@ -1,0 +1,18 @@
+# project structure #
+gas_utility/
+    ├── gas_utility/
+    │   ├── __init__.py
+    │   ├── settings.py
+    │   ├── urls.py
+    │   ├── wsgi.py
+    ├── service_requests/
+    │   ├── __init__.py
+    │   ├── admin.py
+    │   ├── apps.py
+    │   ├── models.py
+    │   ├── tests.py
+    │   ├── views.py
+    │   ├── templates/
+    │   │   ├── submit_request.html
+    │   │   ├── track_requests.html
+    ├── manage.py
